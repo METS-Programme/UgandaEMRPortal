@@ -1,0 +1,324 @@
+/* Global styles
+================================================ */
+
+.ptb_option_desc:before{
+    content: ' -> ';
+}
+.ptb_option_desc{
+    font-style: italic;
+    margin-left: 5px;
+}
+
+.ptb_extra_row_margin{
+    margin: 8px 0;
+}
+.ptb_post_cmb_item_wrapper textarea{
+    resize: vertical;
+    margin-left: 1px;
+    min-height: 100px;
+}
+
+.ptb_extra_inline{
+    display: inline-block;
+}
+.ptb_extra_lightbox+div{
+    -webkit-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    opacity: 1;
+    visibility: visible;
+    margin-left: 20px;
+}
+.ptb_extra_lightbox:checked+div{
+    opacity: 0;
+    visibility: hidden;
+}
+/* Date styles
+================================================ */
+
+.ptb_post_cmb_item_date .ti-arrow-right{
+    padding: 0 5px;
+}
+.ptb_post_cmb_item_date .ptb_post_cmb_title_wrapper{
+    vertical-align: middle;
+}
+
+
+.ptb_extra_field_date {
+    position: relative;
+}
+.ptb_extra_disableDateField {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 180px;
+    height: 28px;
+}
+.ptb_extraOpacityTransition {
+    visibility: hidden;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    opacity: 0;
+    -webkit-transition: opacity 0.2s ease-out;
+    transition: opacity 0.2s ease-out;
+}
+.ptb_extraFadeIn {
+    visibility: visible;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    opacity: 1;
+}
+.ptb_extra_datepicker.ui-datepicker {
+    border-color: #bbb;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    font: normal 600 1.1em "Open Sans";
+    background: #fff;
+}
+.ptb_extra_datepicker.ui-datepicker .ui-datepicker-header {
+    background: none;
+    border: none;
+    border-bottom: 1px solid #eee;
+    border-radius: 0;
+    padding-bottom: 5px;
+}
+.ui-datepicker.ptb_extra_datepicker .ui-datepicker-prev, .ui-datepicker.ptb_extra_datepicker .ui-datepicker-next {
+    border: 1px solid #eee;
+    -webkit-transition: border-color 0.2s ease-out;
+    transition: border-color 0.2s ease-out;
+}
+.ui-datepicker.ptb_extra_datepicker .ui-datepicker-prev .ui-icon, .ui-datepicker.ptb_extra_datepicker .ui-datepicker-next .ui-icon {
+    background: none;
+    text-indent: -99999em;
+}
+.ui-datepicker.ptb_extra_datepicker .ui-datepicker-prev, .ui-datepicker.ptb_extra_datepicker .ui-datepicker-next {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: "dashicons";
+    box-sizing: border-box;
+}
+.ui-datepicker.ptb_extra_datepicker .ui-datepicker-prev:after {
+    content: "\f141";
+    position: absolute;
+    top: 2px;
+    font-size: 20px;
+    left: 0;
+}
+.ui-datepicker.ptb_extra_datepicker .ui-datepicker-next:after {
+    content: "\f139";
+    position: absolute;
+    top: 2px;
+    font-size: 20px;
+    left: 0;
+}
+.ui-datepicker.ptb_extra_datepicker .ui-datepicker-next-hover {
+    border: 1px solid #999;
+    background: none;
+    right: 2px;
+    top: 2px;
+    cursor: pointer;
+}
+.ui-datepicker.ptb_extra_datepicker .ui-datepicker-prev-hover {
+    border: 1px solid #999;
+    background: none;
+    left: 2px;
+    top: 2px;
+    cursor: pointer;
+}
+.ui-datepicker.ptb_extra_datepicker .ui-state-default {
+    background: #f6f6f6;
+    border-radius: 3px;
+    border: 2px solid #eee;
+    -webkit-transition: border-color 0.2s ease-out;
+    transition: border-color 0.2s ease-out;
+}
+.ui-datepicker.ptb_extra_datepicker .ui-state-active, .ui-datepicker.ptb_extra_datepicker .ui-state-default:active {
+    border: 2px solid #F90;
+}
+.ui-datepicker.ptb_extra_datepicker .ui-state-highlight {
+    border: 2px solid #98cee3;
+}
+.ui-datepicker.ptb_extra_datepicker .ui-datepicker-buttonpane {
+    border-top: 1px solid #eee;
+}
+.ui-datepicker.ptb_extra_datepicker .ui-datepicker-buttonpane button {
+    font: 400 0.85em "Open Sans";
+    box-shadow: 0 0 2px rgba(0,0,0,0.1);
+    background: #fafafa;
+    border: 2px solid #eee;
+    color: #222;
+    outline: none;
+    opacity: 1;
+}
+.ui-datepicker.ptb_extra_datepicker .ui_tpicker_hour_label, .ui-datepicker.ptb_extra_datepicker .ui_tpicker_minute_label {
+    padding-top: 6px;
+}
+.ptb_post_cmb_item_event_date button.ui-datepicker-trigger{
+    display: none;
+}
+
+/* Rating Stars styles
+================================================ */
+
+.ptb_rating_confirm{
+    float: left;
+}
+.ptb_rating_confirm+div .ptb_back_active_module_input{
+    width: 96%;
+}
+.ptb_rating_confirm+div{
+    display: none;
+}
+.ptb_rating_confirm:checked+div{
+    display: block;
+}
+.ptb_rate_desc{
+    clear: both;
+    margin-left: 24px;
+}
+.ptb_extra_rating_table table{
+    width: 100%;
+}
+.ptb_extra_rating_table td{
+    border-top: 1px solid #e9eaeb;
+    padding: 8px 0;
+    vertical-align: middle;
+}
+
+/* Progress Bar styles
+================================================ */
+
+.ptb_active_module [data-type="progress_bar"] fieldset{
+    padding-top: 0.35em;
+    padding-bottom: 0.625em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    border: 2px groove #ccc;
+    display: block;
+    margin-bottom: 10px;
+
+}
+.ptb_active_module [data-type="progress_bar"] fieldset legend{
+    cursor: pointer; 
+}
+
+/* Map styles
+================================================ */
+
+.ptb_extra_map_canvas{
+    width:100%;
+    height: 380px;
+}
+.ptb_post_cmb_item_map,
+.ptb_post_cmb_item_map .ptb_post_cmb_title_wrapper,
+.ptb_post_cmb_item_map .ptb_post_cmb_body_wrapper
+{
+    display: block;
+    width: 100%;
+}
+.ptb_post_cmb_item_map .ptb_post_cmb_body_wrapper{
+    box-shadow: 0 0 20px #999;
+    border-radius: 2px; 
+    -webkit-border-radius: 2px; 
+    -moz-border-radius: 2px; 
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    margin-bottom: 35px;
+    position: relative;
+    margin-top: 37px;
+}
+
+.ptb_post_cmb_body_wrapper input.ptb_extra_map_controls {
+
+    border: 1px solid transparent;
+    border-radius: 2px 0 0 2px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    background-color: #fff;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: 12px;
+    padding: 0 11px 0 13px;
+    text-overflow: ellipsis;
+    width: 400px;
+}
+.ptb_post_cmb_body_wrapper .ptb_extra_map_controls,
+.ptb_post_cmb_body_wrapper .ptb_extra_map_select{
+    margin-top: 10px;
+    height: 32px;
+    outline: none;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+#ptb_extra_map_location:focus {
+    border-color: #4d90fe;
+}
+.ptb_extra_map_info{
+    width: 100%;
+    margin-top: 20px;
+    padding: 20px;
+}
+.ptb_extra_map_info label{
+    font-weight: bold;
+}
+
+/* Icon styles
+================================================ */
+
+.ptb_post_cmb_item_icon .fa{
+    font-size: 40px;
+    display: inherit;
+    vertical-align: middle;
+    text-align: center;
+}
+.ptb_post_cmb_item_icon .fa span{
+    display: none;
+}
+.ptb_post_cmb_item_icon .minicolors{
+    margin-top: 8px;
+    width: 100%;
+}
+.ptb_post_cmb_item_icon .minicolors input[type="text"]{
+    width: 93%;
+    height: 32px;
+}
+.ptb_post_cmb_item_icon .minicolors-swatch{
+    width: 32px;
+    height: 32px;
+    float: left;
+    border:none;
+}
+.ptb_post_cmb_item_audio .ptb_uploaded,
+.ptb_post_cmb_item_video .ptb_uploaded,
+.ptb_post_cmb_item_slider .ptb_uploaded,
+.ptb_post_cmb_item_file .ptb_uploaded{
+    background: url('images/extensions.jpg') -1000px 0 no-repeat;
+}
+/* Audio/Video styles
+================================================ */
+
+.ptb_post_cmb_item_audio .ptb_uploaded{
+     background-position: -203px -27px;
+}
+.ptb_post_cmb_item_video .ptb_uploaded,
+.ptb_post_cmb_item_slider .ptb_uploaded{
+     background-position: -316px -27px;
+}
+/* File styles
+================================================ */
+
+.ptb_post_cmb_item_file .ptb_extra_pdf{
+    background-position: -260px -27px;
+}
+.ptb_post_cmb_item_file .ptb_extra_zip{
+    background-position: -34px -27px;
+}
+.ptb_post_cmb_item_file .ptb_extra_doc,
+.ptb_post_cmb_item_file .ptb_extra_docx{
+    background-position: -34px -239px;
+}
+.ptb_post_cmb_item_file .ptb_extra_xls,
+.ptb_post_cmb_item_file .ptb_extra_xlsx,
+.ptb_post_cmb_item_file .ptb_extra_xlsm{
+    background-position: -90px -239px;
+}

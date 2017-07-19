@@ -1,0 +1,328 @@
+/* GALLERY/SLIDER */
+.ptb_module .ptb_extra_submission_images .ptb_back_active_module_input{
+    display: table;
+    padding:0;
+}
+div.ptb_module .ptb_extra_submission_images input[type="text"]{
+    display: table-cell;
+}
+.ptb_extra_submission_images .fa-upload:before{
+    padding-right: 10px;
+}
+.ptb_extra_submission_images .ptb_extra_image_title{
+    display: table-cell;
+    width: 80px;
+    vertical-align: top;
+}
+form .ptb_extra_submission_images .ptb-submission-upload-btn{
+    display: block;
+}
+.ptb_extra_submission_images .ptb-submission-priview-wrap{
+    display: table-cell;
+    width: 1px;
+    vertical-align: top;
+    padding-right: 10px;
+}
+.ptb_extra_submission_images .ptb-submission-priview{
+    float: left;
+    overflow: hidden;
+    max-height: 145px;
+    min-height: 80px;
+}
+div.ptb_extra_submission_audio .ptb-submission-priview,
+div.ptb_extra_submission_files .ptb-submission-priview{
+    display: none !important;
+}
+div.ptb_module:not(.ptb-submission-module-req) .ptb-submission-multi-text.ptb_extra_submission_images .ptb-submission-remove{
+    display: table-cell;
+}
+div.ptb_module .ptb_extra_submission_images  .ptb-submission-error-text{
+    white-space: normal;
+    text-overflow: clip;
+}
+.ptb_extra_submission_images .ptb-submission-upload-btn span{
+    color: #664c9e;
+}
+/* RATING */
+.ptb_rating .ptb-submission-rate-cancel{
+    display:none;
+    margin-left: 10px;
+}
+
+/* BAR */
+.ptb_module .ptb_extra_submission_bar{
+    margin:0;
+    padding: 0;
+    list-style: none;
+}
+.ptb_module .ptb_extra_submission_bar li{
+    margin-bottom: 10px;
+}
+.ptb_module .ptb_extra_submission_bar li input[type="number"]{
+    width: 30%;
+    padding: 5px 0 5px 10px;
+}
+.ptb_module .ptb_extra_submission_bar label{
+    margin-right: 5px;
+    width: 20%;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+/* EVENT DATE */
+.ptb-submission-date-range td.ptb-submission-date-arrow{
+    width: 40px;
+    text-align: center;
+    font-size: 16px;
+}
+.ptb_module.ptb_event_date .ptb-submission-date-wrap input[type="text"]{
+    padding-right: 25px;
+    position: relative;
+    z-index: 100;
+}
+.ptb-submission-date-wrap{
+    position: relative;
+}
+.ptb-submission-date-wrap i{
+    position: absolute;
+    top: 15px;
+    right: 9px;
+    font-size: 20px;
+    cursor: pointer;
+    z-index: 101;
+}
+.ptb_extra_datepicker.ui-datepicker {
+    border-color: #bbb;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    font: normal 600 1.1em "Open Sans";
+    background: #fff;
+}
+.ptb_extra_datepicker.ui-datepicker .ui-datepicker-header {
+    background: none;
+    border: none;
+    border-bottom: 1px solid #eee;
+    border-radius: 0;
+    padding-bottom: 5px;
+}
+.ui-datepicker.ptb_extra_datepicker .ui-datepicker-prev, .ui-datepicker.ptb_extra_datepicker .ui-datepicker-next {
+    border: 1px solid #eee;
+    -webkit-transition: border-color 0.2s ease-out;
+    transition: border-color 0.2s ease-out;
+}
+.ui-datepicker.ptb_extra_datepicker .ui-datepicker-prev .ui-icon, .ui-datepicker.ptb_extra_datepicker .ui-datepicker-next .ui-icon {
+    background: none;
+    text-indent: -99999em;
+}
+.ui-datepicker.ptb_extra_datepicker .ui-datepicker-prev, .ui-datepicker.ptb_extra_datepicker .ui-datepicker-next {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: "dashicons";
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    color: #0073aa;
+}
+.ui-datepicker.ptb_extra_datepicker .ui-datepicker-prev:after {
+    content: "\f141";
+    position: absolute;
+    top: 2px;
+    font-size: 20px;
+    left: 0;
+}
+.ui-datepicker.ptb_extra_datepicker .ui-datepicker-next:after {
+    content: "\f139";
+    position: absolute;
+    top: 2px;
+    font-size: 20px;
+    left: 0;
+}
+.ui-datepicker.ptb_extra_datepicker .ui-datepicker-next-hover {
+    border: 1px solid #999;
+    background: none;
+    right: 2px;
+    top: 2px;
+    cursor: pointer;
+}
+.ui-datepicker.ptb_extra_datepicker .ui-datepicker-prev-hover {
+    border: 1px solid #999;
+    background: none;
+    left: 2px;
+    top: 2px;
+    cursor: pointer;
+}
+.ui-datepicker.ptb_extra_datepicker .ui-state-default {
+    background: #f6f6f6;
+    border-radius: 3px;
+    border: 2px solid #eee;
+    -webkit-transition: border-color 0.2s ease-out;
+    transition: border-color 0.2s ease-out;
+    color: #0073aa;
+}
+.ui-datepicker.ptb_extra_datepicker .ui-state-active, .ui-datepicker.ptb_extra_datepicker .ui-state-default:active {
+    border: 2px solid #F90;
+}
+.ui-datepicker.ptb_extra_datepicker .ui-state-highlight {
+    border: 2px solid #98cee3;
+}
+.ui-datepicker.ptb_extra_datepicker .ui-datepicker-buttonpane {
+    border-top: 1px solid #eee;
+}
+.ui-datepicker.ptb_extra_datepicker .ui-datepicker-buttonpane button {
+    font: 400 0.85em "Open Sans";
+    box-shadow: 0 0 2px rgba(0,0,0,0.1);
+    background: #fafafa;
+    border: 2px solid #eee;
+    color: #222;
+    outline: none;
+    opacity: 1;
+}
+
+/* AUDIO/VIDEO/FILES */
+.ptb_extra_submission_audio .ptb_back_active_module_input,
+.ptb_extra_submission_files .ptb_back_active_module_input,
+.ptb_extra_submission_video .ptb_back_active_module_input{
+    margin-bottom: 10px;
+}
+.ptb_extra_submission_audio .ptb_back_active_module_input .ptb_back_active_module_input,
+.ptb_extra_submission_audio .ptb_back_active_module_input:last-child,
+.ptb_extra_submission_files .ptb_back_active_module_input .ptb_back_active_module_input,
+.ptb_extra_submission_files .ptb_back_active_module_input:last-child,
+.ptb_extra_submission_video .ptb_back_active_module_input:last-child{
+    margin-bottom: 0;
+}
+.ptb-submission-priview video{
+    width:100%;
+}
+@media screen and (max-width: 620px) {
+    .ptb_extra_submission_images .ptb_extra_image_title{
+        float: left;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+    .ptb_extra_image_title+.ptb_back_active_module_input{
+        width: 100%;
+        float: left;
+    }
+}
+@media screen and (max-width: 500px) {
+    .ptb_extra_submission_images .ptb-submission-priview-wrap{
+        margin-bottom: 10px;
+        overflow: hidden;
+    }
+    .ptb_extra_submission_images .ptb-submission-priview,
+    .ptb_extra_submission_images .ptb-submission-priview-wrap{
+        width: 100% !important;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        display: block;
+        padding: 0;
+    }
+    .ptb-submission-priview video{
+        height: auto;
+    }
+}
+
+/*MAP*/
+
+.ptb_extras_submission_map,
+.ptb_extra_submission_map_control,
+.ptb_extra_submission_map_control .ptb_back_active_module_input{
+    width: 100%;
+}
+.ptb_extras_submission_map{
+    min-height: 300px;
+}
+.ptb_module.ptb_map .ptb_extra_submission_map_control input.ptb_extra_map_controls{
+    margin: 25px 0;
+}
+
+/*ICON*/
+
+.ptb_icon_wrap>div{
+    display: table-cell;
+    vertical-align: top;
+}
+.ptb_icon_wrap>div:first-child{
+    text-align: center;
+}
+.ptb_icon_wrap .ptb_back_active_module_input{
+    margin-bottom: 10px;
+}
+.ptb_module .ptb_icon_wrap a.ptb_extra_submission_icon{
+    background-size: cover;
+    background-position: center;
+    border: 2px solid #bcbdc0;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: top;
+}
+.ptb_module .ptb_icon_wrap a.ptb_extra_submission_icon:hover{
+    color: rgba(51, 51, 51, 0.7);
+}
+.ptb_icon_wrap a.ptb_extra_submission_icon i{
+    vertical-align: middle;
+    font-weight: bold;
+    font-size: 23px;
+    height: 50px;
+    width: 50px;
+    display: table-cell;
+    margin: 0 auto;
+}
+.ptb-icons-list{
+    padding: 20px;
+}
+.ptb-icons-list a {
+    width: 195px;
+    height: 32px;
+    line-height: 32px;
+    float: left;
+    display: inline-block;
+    padding-left: 12px;
+    margin-right: 10px;
+    text-decoration: none;
+    font-family: proxima-nova,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 1.1em;
+    color: #555;
+}
+.ptb-icons-list a:hover,
+.ptb-icons-list a.selected {
+    background: #664c9e;
+    color: #fff;
+}
+.ptb-icons-list a i {
+    margin-right: 1em;
+}
+.ptb-icons-list a:hover i,
+.ptb-icons-list a.selected i {
+   -webkit-transform: scale(1.8);
+    -ms-transform: scale(1.8);
+    transform: scale(1.8);
+}
+.ptb-icons-list h2 {
+    clear: both;
+    text-align: center;
+    padding: 20px 0 0;
+    color: #23282d;
+    font-size: 1.5em;
+    margin: .83em 0;
+    font-weight: 400;
+    border: none;
+    background: none;
+    box-shadow: none;
+}
+.ptb_icon_wrap .minicolors{
+    width: 100%;
+    display: block;
+    margin-top: 10px;
+}
+.ptb_icon li .ptb_icon_wrap .minicolors input{
+    padding-left: 42px;
+    float: none;
+}
+.ptb_icon_wrap .minicolors-swatch{
+    width: 40px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
